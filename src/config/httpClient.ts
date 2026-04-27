@@ -5,7 +5,7 @@ import { useAuthStore } from '@/config/store/authStore'; // Adjust path as neede
 
 // added production
 const httpClient = axios.create({
-  baseURL: "https://digihostinfra.com/api", 
+  baseURL: "https://dms-newbackend.onrender.com/api", 
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
